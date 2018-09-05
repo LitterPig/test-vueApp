@@ -1,0 +1,12 @@
+{
+	"goodInfo": {
+		"id": 2,
+		"imgSrc": ["http://mshopimg1.meitudata.com/5910126d54d1369100.jpg",
+				   "http://mshopimg4.meitudata.com/5910128945af663574.jpg",
+				   "http://mshopimg2.meitudata.com/59101221d784529157.jpg"
+				   ],
+		"title": "限量版美图公仔",
+		"price": 2799,
+		"specification": ["hellokitty特别版 64G","标准版(AMOLED屏) 64G","hellokitty特别版 128G"]
+	}
+}
