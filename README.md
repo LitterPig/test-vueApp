@@ -30,6 +30,7 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 //实现的功能
+
 1.选择商品规格和颜色
 
 2.加入购物车
