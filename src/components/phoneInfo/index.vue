@@ -91,7 +91,7 @@ export default {
            handler(cur){
              console.log(cur)
              if(cur == '已选择'){
-                 this.toLink = '/buy'
+                 this.toLink = '/cart'
              }else{
                  this.toLink = '/phoneInfo'
              }
