@@ -19,7 +19,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 //实现的功能
 
 1.选择商品规格和颜色
-
+ 
 2.加入购物车
 
 3.删除购物车,并支持滑动删除
