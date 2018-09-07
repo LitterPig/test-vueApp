@@ -98,16 +98,19 @@ export default {
     },
     //立即购买的订单信息
     [types.COMMIT_LIST](state,product){
-        // state.commitList = []
         state.cartInfos.commitPrice = 0
         state.commitList.push(product);
-        console.log(state.commitList)
         const commitList = state.commitList
         for(let i =0;i<commitList.length;i++){
             state.cartInfos.commitPrice = state.cartInfos.commitPrice + (commitList[i].amount * commitList[i].price)
         }
-        console.log(state.cartInfos.commitPrice)
     },  
+    // [types.toBuy_List](state,product){
+    //     state.cartInfos.commitPrice = 0
+    //     state.toBuy_List.push(product);
+    //     const toBuy_List = state.toBuy_List
+    //     state.cartInfos.commitPrice = state.cartInfos.commitPrice + (toBuy_List.amount * toBuy_List.price)
+    // },
     //提交新建的地址
     [types.COMMIT_ADRESSS] (state,adress){
         state.commitAdress = []

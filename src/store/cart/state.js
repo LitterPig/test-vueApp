@@ -6,7 +6,8 @@ export default {
     },
     cartList:[],   //购物车商品数组
     curIndex:-1,  //当前商品操作的下标index
-    commitList:[], //立即购买的订单信息
+    commitList:[], //购物车内商品购买的订单信息
+    // toBuyList:[],  //商品页的立即购买
     commitAdress:[], //新增的地址
     loginStatus:false,  //用户的登陆状态
     count:0, //商品被选中的次数

@@ -22,6 +22,8 @@ export const CHECK_STATUS = 'CHECK_STATUS'
 export const UPDATE_CART = 'UPDATE_CART'
 //立即购买的订单信息
 export const COMMIT_LIST = 'COMMIT_LIST'
+//商品页的立即购买
+// export const toBuy_List = 'toBuy_List'
 //新建地址的提交
 export const COMMIT_ADRESSS = 'COMMIT_ADRESSS'
 

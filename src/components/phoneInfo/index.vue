@@ -202,7 +202,7 @@ export default {
                       amount:this.amount,
                       imgSrc:imgSrc
                 }
-                this.$store.commit('COMMIT_LIST',commitInfos)
+                // this.$store.commit('toBuy_List',commitInfos)
 
            }
         }

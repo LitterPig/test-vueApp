@@ -105,7 +105,8 @@ export default {
             }else{
                 const list = this.$store.state.cart.cartList
                 for(let i = 0;i<list.length;i++){
-                    if(list[i].selected){
+                    console.log(this.$store.state.cart.loginStatus)
+                    if(list[i].selected && this.$store.state.cart.loginStatus){
                         this.$store.commit('COMMIT_LIST',list[i])
                     }
                 }
